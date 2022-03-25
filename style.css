@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2? family = Source + Sans + Pro: ital @ 1 & display = swap');
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(16, 158,224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 350px;
+    background: #fff;
+    height: 500px;
+    border-radius: 10px;
+}
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid  rgb(16, 158,224);
+}
+.avatar img{
+    max-width: 100%;
+}
+.info h3{
+    text-align: center;
+    display: block;
+}
+.info span{
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+.intro{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+.socials{
+    width: 100%;
+    margin-top: 70px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.list .item{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:  rgb(16, 158,224);
+    font-size: 24px;
+    transition: 0.4s;
+}
+.list .item a{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: rgb(16, 158,224);
+    font-size: 24px;
+    transition: 0.4s;
+}
+.list .item:hover{
+    background:  rgb(225, 219, 226);
+    color: #fff;
+    box-shadow: rgb(128,124,124);
+}
